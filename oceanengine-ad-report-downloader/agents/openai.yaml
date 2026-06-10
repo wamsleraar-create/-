@@ -1,0 +1,4 @@
+interface:
+  display_name: "巨量广告报表"
+  short_description: "从方舟进入巨量营销广告账户，配置广告报表并下载后转飞书表格。"
+  default_prompt: "按指定账户、日期、维度和指标下载巨量营销广告报表，并交付飞书表格链接。"
