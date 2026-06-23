@@ -1,0 +1,16 @@
+{
+  "downloadDir": "~/Downloads",
+  "sinceHours": 48,
+  "reportNameTemplate": "巨量日报_{date}_{accountName}",
+  "feishu": {
+    "enabled": true,
+    "folderToken": "",
+    "type": "sheet"
+  },
+  "accounts": [
+    {
+      "name": "账户名称示例",
+      "id": "1234567890"
+    }
+  ]
+}
