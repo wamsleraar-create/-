@@ -1,0 +1,12 @@
+{
+  "name": "juliang-ad-report-skill",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "download:daily": "node scripts/download-oceanengine-daily.mjs",
+    "update:daily": "node scripts/update-daily-report.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.53.0"
+  }
+}

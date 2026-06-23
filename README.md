@@ -28,6 +28,18 @@
 
 ## 日报自动化脚本
 
+后台下载脚本：
+
+```bash
+cp config/backend-download.example.json config/backend-download.json
+npm install
+node scripts/download-oceanengine-daily.mjs --config config/backend-download.json --date 2026-06-22
+```
+
+这个脚本会用本机 Chrome 登录态打开巨量营销广告报表，设置日期并下载 Excel。
+
+如果返回 `needs_fangzhou_entry`，说明该账户不允许直接打开巨量报表链接，需要先从方舟进入该账户一次，再重新运行。
+
 脚本位置：
 
 ```bash

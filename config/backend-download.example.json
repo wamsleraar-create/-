@@ -1,0 +1,17 @@
+{
+  "chromeProfile": "~/.oceanengine-data/chrome-profile",
+  "downloadDir": "~/Downloads",
+  "headless": false,
+  "reportId": "48378753",
+  "dateRange": {
+    "start": "2026-06-22",
+    "end": "2026-06-22"
+  },
+  "accounts": [
+    {
+      "name": "账户名称示例",
+      "id": "1234567890",
+      "reportId": "48378753"
+    }
+  ]
+}
